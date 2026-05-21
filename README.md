@@ -100,53 +100,111 @@ Hal ini membantu pengguna melakukan analisis secara lebih fleksibel dalam satu d
 
 ---
 
-# 📌 Business Insight
+# 📌 Business Insight & Data Analyst Analysis
 
 ## 1. Tren Penjualan Bulanan
-Analisis line chart menunjukkan bahwa penjualan mengalami fluktuasi setiap bulan. Terdapat beberapa periode dengan peningkatan signifikan yang mengindikasikan adanya seasonal demand atau peningkatan aktivitas pembelian customer.
+Analisis line chart menunjukkan bahwa penjualan mengalami fluktuasi setiap bulan. Beberapa periode menunjukkan peningkatan sales yang signifikan, sedangkan pada periode lain terjadi penurunan performa.
 
-### Insight:
-- Perusahaan dapat memanfaatkan periode peak season untuk meningkatkan strategi marketing dan inventory planning.
-- Penurunan penjualan pada bulan tertentu dapat dijadikan evaluasi promosi atau strategi distribusi.
+### Insight Data Analyst:
+- Pola ini mengindikasikan adanya seasonal demand pada produk tertentu.
+- Peningkatan penjualan kemungkinan dipengaruhi oleh momentum bisnis seperti akhir tahun, promo, atau peningkatan permintaan pasar.
+- Penurunan sales dapat dijadikan indikator untuk evaluasi strategi marketing maupun inventory management.
 
----
-
-## 2. Product Line dengan Kontribusi Tertinggi
-Berdasarkan donut chart dan column chart, beberapa product line memberikan kontribusi sales yang jauh lebih besar dibanding kategori lainnya.
-
-### Insight:
-- Product line dengan sales tertinggi dapat dijadikan fokus utama bisnis.
-- Product line dengan performa rendah memerlukan evaluasi harga, promosi, atau positioning produk.
+### Rekomendasi:
+- Menyiapkan stok lebih besar pada periode peak season.
+- Membuat strategi promosi pada bulan dengan penjualan rendah.
+- Menggunakan forecasting untuk prediksi sales berikutnya.
 
 ---
 
-## 3. Analisis Net Profit
-Dashboard menunjukkan bahwa tingginya sales tidak selalu menghasilkan net profit yang tinggi. Hal ini dipengaruhi oleh:
-- cost of sales
-- margin produk
-- quantity ordered
+## 2. Product Line dengan Kontribusi Sales Tertinggi
+Berdasarkan visualisasi donut chart dan column chart, terdapat beberapa product line yang mendominasi total sales perusahaan.
 
-### Insight:
-- Produk dengan margin profit tinggi lebih penting dibanding hanya volume penjualan besar.
-- Strategi pricing dan cost efficiency perlu ditingkatkan untuk meningkatkan profitabilitas.
+### Insight Data Analyst:
+- Tidak semua kategori produk memiliki kontribusi yang seimbang.
+- Product line tertentu menjadi driver utama revenue perusahaan.
+- Ketergantungan terhadap satu kategori produk dapat menjadi risiko bisnis apabila demand menurun.
 
----
-
-## 4. Customer dan Negara dengan Kontribusi Terbesar
-Bar chart menunjukkan adanya customer dan negara tertentu yang mendominasi transaksi penjualan.
-
-### Insight:
-- Customer dengan kontribusi tinggi dapat dijadikan target loyalty program.
-- Negara dengan sales rendah dapat menjadi peluang ekspansi atau evaluasi strategi pasar.
+### Rekomendasi:
+- Fokus meningkatkan retention dan marketing pada kategori dengan performa tinggi.
+- Melakukan evaluasi terhadap product line dengan sales rendah.
+- Diversifikasi produk untuk mengurangi ketergantungan pada satu kategori utama.
 
 ---
 
-## 5. Hubungan Sales dan Quantity Ordered
-Scatter plot menunjukkan hubungan antara jumlah order dan nilai sales.
+## 3. Analisis Net Profit dan Margin
+Dashboard menunjukkan bahwa sales tinggi tidak selalu menghasilkan profit tinggi. Hal ini dipengaruhi oleh:
+- cost of sales,
+- margin produk,
+- quantity ordered.
 
-### Insight:
-- Order quantity yang tinggi cenderung menghasilkan sales lebih besar.
-- Namun beberapa transaksi dengan quantity kecil tetap menghasilkan profit tinggi karena margin produk lebih besar.
+### Insight Data Analyst:
+- Beberapa produk menghasilkan revenue besar namun margin profit rendah.
+- Terdapat kemungkinan biaya operasional atau biaya pembelian produk terlalu tinggi.
+- Profitability analysis menjadi lebih penting dibanding hanya melihat sales volume.
+
+### Rekomendasi:
+- Mengoptimalkan pricing strategy.
+- Fokus pada produk dengan margin profit tinggi.
+- Melakukan efisiensi cost untuk meningkatkan net profit.
+
+---
+
+## 4. Customer dengan Kontribusi Tertinggi
+Bar chart menunjukkan beberapa customer memiliki kontribusi transaksi jauh lebih besar dibanding customer lainnya.
+
+### Insight Data Analyst:
+- Sebagian besar revenue kemungkinan berasal dari small group of customers (Pareto Principle / 80-20 Rule).
+- Kehilangan customer utama dapat berdampak besar terhadap revenue perusahaan.
+
+### Rekomendasi:
+- Membuat loyalty program untuk high-value customers.
+- Meningkatkan customer relationship management (CRM).
+- Mengembangkan strategi untuk meningkatkan kontribusi customer lain.
+
+---
+
+## 5. Analisis Berdasarkan Negara
+Visualisasi menunjukkan adanya perbedaan performa sales antar negara.
+
+### Insight Data Analyst:
+- Negara tertentu menjadi market utama perusahaan.
+- Beberapa negara memiliki sales rendah namun masih memiliki potensi pertumbuhan.
+
+### Rekomendasi:
+- Fokus ekspansi pada market dengan pertumbuhan tinggi.
+- Mengevaluasi strategi distribusi dan marketing pada negara dengan performa rendah.
+- Menyesuaikan strategi bisnis berdasarkan karakteristik regional market.
+
+---
+
+## 6. Hubungan Quantity Ordered dan Sales
+Scatter plot menunjukkan hubungan positif antara jumlah order dan nilai sales.
+
+### Insight Data Analyst:
+- Semakin besar quantity ordered, semakin besar sales yang dihasilkan.
+- Namun terdapat transaksi quantity kecil dengan profit tinggi, yang menunjukkan adanya produk premium atau margin tinggi.
+
+### Rekomendasi:
+- Mengidentifikasi produk dengan high-margin performance.
+- Mengembangkan strategi upselling dan bundling.
+- Meningkatkan penjualan produk premium.
+
+---
+
+## 7. Efektivitas Dashboard untuk Business Monitoring
+Dashboard memungkinkan stakeholder memonitor KPI secara real-time dan interaktif.
+
+### Insight Data Analyst:
+- Dashboard membantu mempercepat proses pengambilan keputusan.
+- Visualisasi interaktif memudahkan identifikasi masalah bisnis dan peluang pertumbuhan.
+- KPI monitoring membantu perusahaan lebih data-driven.
+
+### Business Value:
+- Faster decision making
+- Better performance monitoring
+- Improved business strategy
+- Easier identification of trends and anomalies
 
 ---
 
@@ -157,7 +215,15 @@ Melalui dashboard ini, stakeholder dapat:
 - memahami tren penjualan,
 - mengevaluasi profitabilitas,
 - mengidentifikasi product line terbaik,
+- menganalisis customer behavior,
 - serta mengambil keputusan bisnis berbasis data dengan lebih efektif.
+
+Project ini juga menunjukkan kemampuan dalam:
+- data visualization,
+- dashboard development,
+- KPI analysis,
+- business intelligence,
+- serta data storytelling menggunakan Power BI.
 
 ---
 
@@ -169,11 +235,11 @@ Classic-Model/
 ├── dataset/
 │   ├── classic_model_sales.csv
 │
+├── Dashboard/
+│   ├── Sales_Overview-Page1.png
+│   ├── Sales_Overview-Page2.png
+│
 ├── dashboard/
 │   ├── classic_model_dashboard.pbix
-│
-├── images/
-│   ├── dashboard_overview.png
-│   ├── sales_profit_analysis.png
 │
 ├── README.md
