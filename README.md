@@ -17,13 +17,15 @@ Project ini bertujuan untuk membantu stakeholder memahami performa bisnis, tren 
 
 # 📷 Dashboard Preview
 
-## Dashboard Overview
+## Sales Overview - Page 1
 
-<img src="images/dashboard_overview.png" width="1000">
+![Sales Overview Page 1](Dashboard/Sales_Overview-Page1.png)
 
-## Sales & Net Profit Analysis
+---
 
-<img src="images/sales_profit_analysis.png" width="1000">
+## Sales Overview - Page 2
+
+![Sales Overview Page 2](Dashboard/Sales_Overview-Page2.png)
 
 ---
 
